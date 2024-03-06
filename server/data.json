@@ -1,6 +1,7 @@
 [
     {
       "name": "ENLITE DOUBLE TSHIRT BLACK",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 189000,
@@ -16,6 +17,7 @@
     },
     {
       "name": "ENLITE DOUBLE TSHIRT CHOCO",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 189000,
@@ -29,6 +31,7 @@
     },
     {
       "name": "ENLITE DOUBLE TSHIRT NAVY",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 189000,
@@ -43,6 +46,7 @@
     },
     {
       "name": "ENLITE DOUBLE TSHIRT WHITE",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 189000,
@@ -57,6 +61,7 @@
     },
     {
       "name": "ENLITE DOUBLE TSHIRT RED",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 189000,
@@ -71,6 +76,7 @@
     },
     {
       "name": "ENLITE DOUBLE TSHIRT CHARCOAL",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 189000,
@@ -85,6 +91,7 @@
     },
     {
       "name": " DOUBLE TSHIRT DARK GREEN",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 189000,
@@ -99,6 +106,7 @@
     },
     {
       "name": "SHORT SLEEVE SHIRT BLACK",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 299000,
@@ -113,6 +121,7 @@
     },
     {
       "name": "SHORT SLEEVE BROWN",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 299000,
@@ -127,6 +136,7 @@
     },
     {
       "name": "SHORT SLEEVE WHITE",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 299000,
@@ -141,6 +151,7 @@
     },
     {
       "name": "SHORT SLEEVE ATLANTIC BLUE",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 299000,
@@ -155,6 +166,7 @@
     },
     {
       "name": "SHORT SLEEVE SHIRT BROWN",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 299000,
@@ -168,6 +180,7 @@
     },
     {
       "name": "POLO STRIPE 3 STRIPE NAVY BROWN",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 349000,
@@ -181,6 +194,7 @@
     },
     {
       "name": "POLO STRIPE 4 STRIPE GREY WHITE",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 349000,
@@ -194,6 +208,7 @@
     },
     {
       "name": "POLO STRIPE 4 STRIPE NAVY GREEN",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 349000,
@@ -208,6 +223,7 @@
     },
     {
       "name": "POLO STRIPE 4 LIGHT BLUE WHITE",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 349000,
@@ -222,6 +238,7 @@
     },
     {
       "name": "MONOLINE T-SHIRT WHITE",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 189000,
@@ -236,6 +253,7 @@
     },
     {
       "name": "MONOLINE T-SHIRT NAVY",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 189000,
@@ -250,6 +268,7 @@
     },
     {
       "name": "MONOLINE T-SHIRT CHARCOAL",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 189000,
@@ -263,6 +282,7 @@
     },
     {
       "name": "MONOLINE T-SHIRT CHOCO",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 189000,
@@ -276,6 +296,7 @@
     },
     {
       "name": "POLO STRIPE 3 MAROON BLACK",
+      "category": "tshirt",
       "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya, disebabkan karna proses pencahayaan pada pengambilan gambar atau kualitas layar gadget yang digunakan untuk melihat gambar.",
       "excerpt": "Cotton 16’s (100% Cotton )",
       "price": 189000,

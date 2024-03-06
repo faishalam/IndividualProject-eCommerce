@@ -1,8 +1,12 @@
 const express = require('express')
 const userRouter = require('./user')
+const favouriteRouter = require('./favourite')
+const productRouter = require('./product')
 const router = express.Router()
 
 router.use("/", userRouter)
+router.use("/", productRouter)
+router.use("/", favouriteRouter)
 
 
 module.exports = router
