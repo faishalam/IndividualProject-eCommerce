@@ -1,0 +1,1 @@
+npx sequelize-cli model:generate --name History --attributes userId:string,chartId:string

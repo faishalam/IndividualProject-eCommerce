@@ -5,11 +5,11 @@ const { User } = require('../models');
 class UserController {
     static async register(req, res) {
         try {
-            const { username, email, password } = req.body
+            const { name, email, password } = req.body
 
-            let newUser = await User.create({ username, email, password })
+            let newUser = await User.create({ name, email, password })
             const withoutPassword = {
-                username: newUser.username,
+                name: newUser.name,
                 email: newUser.email,
             };
             
