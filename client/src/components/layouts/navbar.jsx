@@ -1,10 +1,20 @@
 import NavbarLink from "../elements/navbarLink"
+import { motion } from "framer-motion"
 
-export default function Navbar() {
+export default function Navbar(props) {
+    const { isNavbarVisible } = props
+
+
     return (
         <>
-            <nav className="h-11 w-full flex border-b border-gray-300 px-5">
-                <div className="w-1/3 h-full flex justify-start items-center ">
+            <motion.nav
+                className={`navbar bg-white h-11 w-full flex border-b border-gray-300 px-5`}
+                initial={{ opacity: 0, y: -100 }}
+                animate={isNavbarVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: -100 }}
+                exit={{ opacity: 0, y: -100 }}
+                transition={{ duration: 0.5 }}
+            >
+                <div className="w-1/3 h-full flex justify-start items-center">
                     <NavbarLink
                         text="TERMINAL"
                         classname="text-2xl"
@@ -44,8 +54,7 @@ export default function Navbar() {
                         classname="text-sm font-normal"
                     />
                 </div>
-
-            </nav>
+            </motion.nav>
         </>
     )
 }
