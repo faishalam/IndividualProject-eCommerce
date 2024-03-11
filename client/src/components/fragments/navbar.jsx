@@ -8,7 +8,7 @@ export default function Navbar(props) {
     return (
         <>
             <motion.nav
-                className={`navbar bg-white h-11 w-full flex border-b border-gray-300 px-5`}
+                className={`bg-white h-11 w-full flex border-b border-gray-300 px-5 absolute`}
                 initial={{ opacity: 0, y: -100 }}
                 animate={isNavbarVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: -100 }}
                 exit={{ opacity: 0, y: -100 }}
