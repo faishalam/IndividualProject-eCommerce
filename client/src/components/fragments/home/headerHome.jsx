@@ -1,17 +1,20 @@
-import { useEffect, useState } from "react";
-import Navbar from "../fragments/navbar";
-import Typing from "../elements/typewriter";
-import Overlay from "../elements/overlay";
+import { useEffect, useRef, useState } from "react";
+import Navbar from "../navbar";
+import Typing from "../../elements/typewriter";
+import Overlay from "../../elements/overlay";
 import { motion } from "framer-motion"
-import Motion from "../elements/motion";
-import HeaderHomeImage from "../elements/headerHomeImage";
-import HeaderHomeVideo from "../elements/headerHomeVideo";
+import Motion from "../../elements/motion";
+import HeaderHomeImage from "../../elements/headerHomeImage";
+import HeaderHomeVideo from "../../elements/headerHomeVideo";
 
-export default function HeaderHome() {
+
+export default function HeaderHome(props) {
     const [isNavbarVisible, setIsNavbarVisible] = useState(true);
     const [width, setWidth] = useState('full')
     const [img, setImg] = useState('')
     const [video, setVideo] = useState('')
+    const { setView } = props
+
 
     useEffect(() => {
         const timeout = setTimeout(() => {
@@ -25,12 +28,13 @@ export default function HeaderHome() {
     const handleOnClick = () => {
         setWidth('1/2')
         setIsNavbarVisible(true)
+        setView(true)
     }
 
     return (
         <>
             <Motion
-                classname={`w-${width} h-screen flex items-center justify-center gap-60 `}
+                classname={`w-${width} h-screen flex items-center justify-center gap-60`}
                 initial={{ width: '100%' }}
                 animate={{ width: width === 'full' ? '100%' : '50%' }}
                 transition={{ duration: 0.9 }}
@@ -101,17 +105,22 @@ export default function HeaderHome() {
 
                         <div className="w-full p-5 mt-10">
                             <HeaderHomeVideo
-                                 title={'JDM CULTURE'}
-                                 src1={'https://v1.pinimg.com/videos/mc/720p/3b/79/b7/3b79b74b0ebeb07a4a8c585e71b66207.mp4'}
-                                 setVideo={setVideo}
-                                 typing={'HISTORY OF JDM CULTURE'}
-                                 desc={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, accusamus, molestias dolore possimus, quo ducimus deleniti quos molestiae eius autem sit nihil nulla similique soluta rerum iusto neque facilis asperiores.'}
+                                title={'JDM CULTURE'}
+                                src1={'https://v1.pinimg.com/videos/mc/720p/3b/79/b7/3b79b74b0ebeb07a4a8c585e71b66207.mp4'}
+                                setVideo={setVideo}
+                                typing={'HISTORY OF JDM CULTURE'}
+                                desc={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, accusamus, molestias dolore possimus, quo ducimus deleniti quos molestiae eius autem sit nihil nulla similique soluta rerum iusto neque facilis asperiores.'}
                             />
                         </div>
                     </motion.div>
-
                 )
             }
+
+            {/* <div className="bg-black bg-cover bg-center bg-no-repeat bg-fixed h-65vh m-20 rounded-lg bg-[url('https://res.cloudinary.com/de2dlumua/image/upload/v1702139425/gncwyyoh6oledbcrfitc.jpg')]" >
+            </div> */}
+
+          
+
 
         </>
     );

@@ -3,12 +3,12 @@ import { motion } from "framer-motion"
 
 export default function Navbar(props) {
     const { isNavbarVisible } = props
-
+    console.log(isNavbarVisible)
 
     return (
         <>
             <motion.nav
-                className={`bg-white h-11 w-full flex border-b border-gray-300 px-5 absolute`}
+                className={`bg-white h-11 w-full flex border-b border-gray-300 px-5 fixed z-10`}
                 initial={{ opacity: 0, y: -100 }}
                 animate={isNavbarVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: -100 }}
                 exit={{ opacity: 0, y: -100 }}
