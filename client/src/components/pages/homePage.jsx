@@ -1,9 +1,13 @@
+import HeaderHome from "../fragments/home/headerHome";
 import HomeLayout from "../layouts/homeLayout";
 
 export default function HomePage() {
     return (
         <>
-            <HomeLayout />
+            <div className="bg-white">
+                <HomeLayout />
+            </div>
+
         </>
     )
 }

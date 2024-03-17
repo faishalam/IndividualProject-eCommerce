@@ -1,150 +1,354 @@
 [
-    {
-      "name": "Midnight 964 Tee",
-      "category": "tshirt",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "excerpt": "Cotton 16’s (100% Cotton )",
-      "price": 189000,
-      "thumbnail": "https://i.ibb.co/n7MWHzH/Snapinsta-app-375638333-166826426396498-6120269927196727541-n-1080.jpg",
-      "images": [
-        "https://i.ibb.co/n7MWHzH/Snapinsta-app-375638333-166826426396498-6120269927196727541-n-1080.jpg",
-        "https://i.ibb.co/W2HJs73/Snapinsta-app-376806740-204598922622250-4507862123969013037-n-1080.jpg",
-        "https://i.ibb.co/HphF7JC/Snapinsta-app-372026332-18231808030239714-6724752178803577171-n-1080.jpg",
-        "https://i.ibb.co/QncKJt1/Snapinsta-app-373296139-18231808006239714-838281677577833706-n-1080.jpg"
-      ]
-    },
-    {
-      "name": "RWB Gtspirit kyaripa Tee",
-      "category": "tshirt",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "excerpt": "Cotton 16’s (100% Cotton )",
-      "price": 189000,
-      "thumbnail": "https://i.ibb.co/dtV6fvC/Snapinsta-app-375678180-989669355579475-8114829313015109682-n-1080.jpg",
-      "images": [
-        "https://i.ibb.co/dtV6fvC/Snapinsta-app-375678180-989669355579475-8114829313015109682-n-1080.jpg",
-        "https://i.ibb.co/zNt2Wdb/Snapinsta-app-375724184-1025868435318894-5234638916889967918-n-1080.jpg"
-      ]
-    },
-    {
-      "name": "Skyline r34 kyaripa tee",
-      "category": "tshirt",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "excerpt": "Cotton 16’s (100% Cotton )",
-      "price": 189000,
-      "thumbnail": "https://i.ibb.co/0CSxD6d/Snapinsta-app-375838951-142706568908010-6277626512803769619-n-1080.jpg",
-      "images": [
-        "https://i.ibb.co/0CSxD6d/Snapinsta-app-375838951-142706568908010-6277626512803769619-n-1080.jpg",
-        "https://i.ibb.co/ySMCrSP/Snapinsta-app-375701797-232226283131414-5509176271906167360-n-1080.jpg"
-      ]
-    },
-    {
-      "name": "Supra a80 T-shirt",
-      "category": "tshirt",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "excerpt": "Cotton 16’s (100% Cotton )",
-      "price": 189000,
-      "thumbnail": "https://i.ibb.co/ygpj8S4/Snapinsta-app-375511261-3445343432446570-335819743286887033-n-1080.jpg",
-      "images": [
-        "https://i.ibb.co/ygpj8S4/Snapinsta-app-375511261-3445343432446570-335819743286887033-n-1080.jpg",
-        "https://i.ibb.co/PrfgKwV/Snapinsta-app-375781671-991522578835043-7474087838092922054-n-1080.jpg"
-      ]
-    },
-    {
-      "name": "E30 kyaripa Tee",
-      "category": "tshirt",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "excerpt": "Cotton 16’s (100% Cotton )",
-      "price": 189000,
-      "thumbnail": "https://i.ibb.co/bWs9TQ3/Snapinsta-app-375904440-300804409307806-3181373338745851942-n-1080.jpg",
-      "images": [
-        "https://i.ibb.co/bWs9TQ3/Snapinsta-app-375904440-300804409307806-3181373338745851942-n-1080.jpg",
-        "https://i.ibb.co/wWb8Q7w/Snapinsta-app-376754231-271173562442245-2679021810482286021-n-1080.jpg"
-      ]
-    },
-    {
-      "name": "Lexus LFA kyaripa tee",
-      "category": "tshirt",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "excerpt": "Cotton 16’s (100% Cotton )",
-      "price": 189000,
-      "thumbnail": "https://i.ibb.co/NFK0RX3/Snapinsta-app-376628278-673444274838917-3265740455979664613-n-1080.jpg",
-      "images": [
-        "https://i.ibb.co/NFK0RX3/Snapinsta-app-376628278-673444274838917-3265740455979664613-n-1080.jpg",
-        "https://i.ibb.co/tQfZFsH/Snapinsta-app-376697503-334222069172426-2772540672923347048-n-1080.jpg"
-      ]
-    },
-    {
-      "name": "R34 Nissan skyline GTR Kyaripa",
-      "category": "tshirt",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "excerpt": "Cotton 16’s (100% Cotton )",
-      "price": 189000,
-      "thumbnail": "https://i.ibb.co/sJVw3Hf/Snapinsta-app-376188895-3792589637679704-3213413939259907133-n-1080.jpg",
-      "images": [
-        "https://i.ibb.co/sJVw3Hf/Snapinsta-app-376188895-3792589637679704-3213413939259907133-n-1080.jpg",
-        "https://i.ibb.co/MNh0xN1/Snapinsta-app-375766932-265018976432456-1093256927293901439-n-1080.jpg"
-      ]
-    },
-    {
-      "name": "G63 AMG Tee",
-      "category": "tshirt",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "excerpt": "Cotton 16’s (100% Cotton )",
-      "price": 299000,
-      "thumbnail": "https://i.ibb.co/H7RQ9kS/Snapinsta-app-375714106-2285500008317061-321539913852401240-n-1080.jpg",
-      "images": [
-        "https://i.ibb.co/H7RQ9kS/Snapinsta-app-375714106-2285500008317061-321539913852401240-n-1080.jpg",
-        "https://i.ibb.co/511Kb4w/Snapinsta-app-375720937-6673305282751459-779969702203165160-n-1080.jpg"
-      ]
-    },
-    {
-      "name": "Porsche 964 kyaripa tee",
-      "category": "tshirt",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "excerpt": "Cotton 16’s (100% Cotton )",
-      "price": 299000,
-      "thumbnail": "https://i.ibb.co/2dknJG1/Snapinsta-app-375678172-653872466719481-1467974044369679081-n-1080.jpg",
-      "images": [
-        "https://i.ibb.co/2dknJG1/Snapinsta-app-375678172-653872466719481-1467974044369679081-n-1080.jpg",
-        "https://i.ibb.co/SBVnBTQ/Snapinsta-app-375852281-1314929169123044-534788998644619293-n-1080.jpg"
-      ]
-    },
-    {
-      "name": "Ek9 Civic kyaripa Tee",
-      "category": "tshirt",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "excerpt": "Cotton 16’s (100% Cotton )",
-      "price": 299000,
-      "thumbnail": "https://i.ibb.co/mJDK8Rk/Snapinsta-app-377446822-649348606969899-3275327481530693422-n-1080.jpg",
-      "images": [
-        "https://i.ibb.co/mJDK8Rk/Snapinsta-app-377446822-649348606969899-3275327481530693422-n-1080.jpg",
-        "https://i.ibb.co/x1Mjzjy/Snapinsta-app-375745635-976303580325752-2385222814003923316-n-1080.jpg"
-      ]
-    },
-    {
-      "name": "Malrb kyaripa Tee",
-      "category": "hat",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "excerpt": "Cotton 16’s (100% Cotton )",
-      "price": 299000,
-      "thumbnail": "https://i.ibb.co/wcXjJXF/Snapinsta-app-376254058-1300081754213364-2852307892394773229-n-1080.jpg",
-      "images": [
-        "https://i.ibb.co/wcXjJXF/Snapinsta-app-376254058-1300081754213364-2852307892394773229-n-1080.jpg",
-        "https://i.ibb.co/L9CxKqK/Snapinsta-app-375893017-312928911318541-4300502634610099632-n-1080.jpg"
-      ]
-    },
-    {
-      "name": "Merc Kyaripa tee",
-      "category": "hat",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "excerpt": "Cotton 16’s (100% Cotton )",
-      "price": 299000,
-      "thumbnail": "https://i.ibb.co/f8wVPdg/Snapinsta-app-376243602-1508518506585212-6333591473137986777-n-1080.jpg",
-      "images": [
-        "https://i.ibb.co/f8wVPdg/Snapinsta-app-376243602-1508518506585212-6333591473137986777-n-1080.jpg",
-        "https://i.ibb.co/6wqxvzk/Snapinsta-app-376014859-650913446811776-751314826776401467-n-1080.jpg",
-        "https://i.ibb.co/g7d7PYR/Snapinsta-app-375895373-274111105386445-6553718570142095882-n-1080.jpg"
-      ]
-    }
+  {
+    "name": "ENLITE DOUBLE TSHIRT BLACK",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 189000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/black_17.jpg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/black_17.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/black_26.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/black_36.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/black_46.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/black_56.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/black_62.jpg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "ENLITE DOUBLE TSHIRT CHOCO",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 189000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/choco_1.jpg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/choco_2.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/choco_3.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/choco_4.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/choco_5.jpg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "ENLITE DOUBLE TSHIRT NAVY",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 189000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/navy_13.jpg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/navy_13.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/navy_22.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/navy_33.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/navy_43.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/navy_53.jpg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "ENLITE DOUBLE TSHIRT WHITE",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 189000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/white_15.jpg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/white_15.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/white_23.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/white_34.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/white_44.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/white_52.jpg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "ENLITE DOUBLE TSHIRT RED",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 189000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/red_1.jpg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/red_1.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/red_2.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/red_3.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/red_4.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/red_5.jpg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "ENLITE DOUBLE TSHIRT CHARCOAL",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 189000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/CHARCOAL1.jpg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/CHARCOAL1.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/CHARCOAL_2.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/CHARCOAL_3.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/CHARCOAL_4.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/CHARCOAL_5.jpg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": " DOUBLE TSHIRT DARK GREEN",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 189000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/d_green_1.jpg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/d_green_1.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/d_green_2.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/d_green_3.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/d_green_4.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/d_green_5.jpg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "SHORT SLEEVE SHIRT BLACK",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 299000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/97f60b72-c4ff-45d8-b5b9-c43efb563e80.jpeg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/97f60b72-c4ff-45d8-b5b9-c43efb563e80.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/625ecf12-1d5e-4b54-8eff-1f87b2a327c7.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/b23a4d60-9536-4913-b3db-99d53e369954.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/cb802fb6-759d-415b-a3f2-90e08bc8d600.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/657b2a12-a00c-4239-a4f0-c9affcbcf64f.jpg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "SHORT SLEEVE BROWN",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 299000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/fbecfee9-5697-4d56-a6d8-707d6ec746cc.jpeg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/fbecfee9-5697-4d56-a6d8-707d6ec746cc.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/13929cef-b358-43bb-9348-fad0fdb40402.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/21912098-1827-40c4-b634-2d7bcfe579d6.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/edfebc7e-4264-4f77-9e0e-5175a47678e0.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/563cdf46-0bb6-4e9e-846e-1f53da13787a.jpg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "SHORT SLEEVE WHITE",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 299000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/a658f8f2-cbc6-4f52-8019-20d9be146771.jpeg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/a658f8f2-cbc6-4f52-8019-20d9be146771.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/5ab11a21-301a-4509-926b-b1f44f8f6c81.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/b4afaa6e-60b8-4fdc-acb7-d6f1a042b04a.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/d16e3cf6-0fb5-46d8-a451-a833d98f6a56.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/f682e574-572e-4d32-996b-508aa6f0ff33.jpg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "SHORT SLEEVE ATLANTIC BLUE",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 299000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/db3441de-ef8b-491c-9692-7996aa17386b1.jpeg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/db3441de-ef8b-491c-9692-7996aa17386b1.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/c0dce3c5-b306-4470-a117-6013149a6618.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/675b8539-17dd-4b66-85dc-23c2b4515dbd.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/b38c4840-972f-4e81-ba59-ae8bb993af49.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/69abd416-b758-4e95-9cec-53f476d56768.jpeg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "SHORT SLEEVE SHIRT BROWN",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 299000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/654b171e-ce95-42d2-8c07-1469c5ddfad0.jpeg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/fe1c7a27-29c3-4304-b6af-6063cca81414.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/38f62728-22d6-4e66-b237-4320de71a877.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/83300a48-edfa-41d3-9e84-24b501b8a0c3.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/6ce985ab-e3d8-4916-87be-1986815fdd91.jpg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "POLO STRIPE 3 STRIPE NAVY BROWN",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 349000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/7d53b89e-2a35-4e52-bad9-a0e74e6cbba4.jpeg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/7d53b89e-2a35-4e52-bad9-a0e74e6cbba4.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/4b1a09be-3415-413a-9910-31cce8a3ba38.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/0e1a7688-a998-4293-a07e-7761152e3e56.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/0549ca7d-3d71-4d88-8d08-b34c2df2f528.jpeg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "POLO STRIPE 4 STRIPE GREY WHITE",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 349000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/deec6fde-2b66-446b-be07-b400d5295d6c.jpeg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/deec6fde-2b66-446b-be07-b400d5295d6c.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/f18aee39-d785-4eb9-baa9-9948c5ae305e.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/6af92d3f-41ea-4972-83ed-23501b1c8172.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/8eaede81-9e45-4cc9-b41c-0d7e6f3e6e56.jpeg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "POLO STRIPE 4 STRIPE NAVY GREEN",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 349000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/f625ecca-f99e-41c1-aeb9-c12844a5de69.jpeg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/f625ecca-f99e-41c1-aeb9-c12844a5de69.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/aa1d610e-f31c-4dc0-929c-1fb6f407534f.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/b48de9b0-b47c-4aea-b667-6d04ced10240.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/44b15041-f751-422e-a21d-917521a3280e.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/03e7e37b-ab19-4b3f-9638-e37d5cd9bd5f.jpeg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "POLO STRIPE 4 LIGHT BLUE WHITE",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 349000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/05965a4a-6954-48d4-acb9-5d32279e0792.jpeg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/05965a4a-6954-48d4-acb9-5d32279e0792.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/dc3bc611-e0bb-445a-9236-cb71624b18f9.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/1b229fae-c26e-4a25-8894-e994dac01ca9.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/41a7093c-ef88-4b0d-ba9a-9caa78e0c6f6.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/2db99866-23ab-4468-90cb-ed682ce8410d.jpeg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "MONOLINE T-SHIRT WHITE",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 189000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/c736509c-4a23-4edc-9629-6fb02eadf5f4.jpeg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/c736509c-4a23-4edc-9629-6fb02eadf5f4.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/8d417714-d3f0-4aee-814b-4e5d86a1d63c.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/b872d37a-ce96-47a1-995e-f872cdba3401.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/b9d107b9-52ae-47d6-9d56-388b3f6adc56.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/42f58ea4-6676-49b9-b1ec-611b1e6aa893.jpeg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "MONOLINE T-SHIRT NAVY",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 189000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/bb9274c6-20b8-4193-8cf2-72268e64cad3.jpg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/bb9274c6-20b8-4193-8cf2-72268e64cad3.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/365614af-ffc6-4408-9eb8-5b4cac54be88.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/bcb68b43-5c1f-4fed-ad48-b30cdd7c4ebc2.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/774f5964-c94a-42a8-a51f-f6fc5574335b1.jpg",
+      "https://spaces.ilfen.co/assets/image/produk/navy.jpg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "MONOLINE T-SHIRT CHARCOAL",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 189000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/d879ff9f-a68f-4537-86f0-fc8d6a509715.jpeg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/6b1f81ca-38af-4999-a18d-493160cb9683.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/35a47693-cc2f-4700-8a55-76b792cbda71.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/556f4b37-5824-46a2-94ea-18a51ab21f36.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/0f37f714-894f-4ea9-8fde-a0cc3846630f.jpeg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "MONOLINE T-SHIRT CHOCO",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 189000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/5aee7619-0580-4b4d-ace0-77d518fb40fa.jpeg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/5aee7619-0580-4b4d-ace0-77d518fb40fa.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/ed594048-1fa3-4839-a445-5c4f16cf90a8.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/3a287576-b20f-48cc-bbb5-c9565d64fa49.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/f567348a-aa0d-4226-bfe2-26870e4c7e2f.jpeg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "POLO STRIPE 3 MAROON BLACK",
+    "category": "TSHIRT",
+    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 189000,
+    "thumbnail": "https://spaces.ilfen.co/assets/image/produk/de8571e3-c194-4b5b-9100-f1733b542dc21.jpeg",
+    "images": [
+      "https://spaces.ilfen.co/assets/image/produk/1f69c3bc-decf-441a-9ed0-67b95282643e1.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/ae2d2366-1b3d-4800-8349-d2c5729006c1.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/4bca8925-8ac5-47ae-84ac-8a2c5687fa88.jpeg",
+      "https://spaces.ilfen.co/assets/image/produk/0b07b431-ce1c-418e-8fe8-47e39b3fd646.jpeg"
+    ],
+    "createdAt": "2023-12-15T15:32:06.350Z",
+    "updatedAt": "2024-03-18T14:47:12.101Z"
+  }
 ]
 
