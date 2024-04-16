@@ -1,12 +1,15 @@
+import { useParams } from "react-router-dom";
 import CardProduct from "../cardProduct";
 
-export default function AllProduct() {
+export default function AllProduct(props) {
+    const { product } = props
+
     return (
         <>
             <div className="flex flex-col">
                 <p className="p-2 text-sm">SHOP ALL</p>
-                <div className="flex flex-wrap ">
-                    <CardProduct width="1/3" padding={'2'} mb={'10'} oneProductCount={false} />
+                <div className="w-full h-full flex flex-wrap ">
+                    <CardProduct product={product} type={'allProduct'} oneProductCount={false} />
                 </div>
             </div>
         </>

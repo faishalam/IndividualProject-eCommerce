@@ -2,7 +2,7 @@
   "development": {
     "username": "postgres",
     "password": "postgres",
-    "database": "project_porto_ecommerce",
+    "database": "project_porto_ecommercee",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
