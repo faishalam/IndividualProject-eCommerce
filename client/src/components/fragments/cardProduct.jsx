@@ -1,75 +1,50 @@
-import { useDispatch, useSelector } from "react-redux";
-import { fetchProducts } from "../../features/asyncAction";
 import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 
 export default function CardProduct(props) {
-    const { width, padding, mb, hotItems } = props
+    const { product, hotItems, type } = props
     const location = useLocation()
-
-    const dispatch = useDispatch()
-    const product = useSelector((state) => state.product.product);
-
-    const [productCount, setProductCount] = useState(product.length);
+    const [productCount, setProductCount] = useState(product?.length);
 
     useEffect(() => {
-        if (location.pathname === '/products') {
-            setProductCount(product.length);
-        } else if (location.pathname === '/') {
+        if (location.pathname === '/') {
             setProductCount(6);
+        } else {
+            setProductCount(product?.length);
         }
     }, [location.pathname, product]);
 
+    const renderProductCard = (item, width, imgWidth) => (
+        <Link to={`/product-detail/${item.id}`} className={`mb-8 p-2 ${width} `} key={item.id}>
+            <img src={item.thumbnail} alt={item.name} className={`w-full ${imgWidth} object-cover`} />
+            <div className="flex flex-col justify-center">
+                <div className="mt-2">
+                    <p className="text-xs font-semibold">{item.name}</p>
+                    <p className="text-xs">{item.category}</p>
+                    <p className="text-xs">Rp {item.price.toLocaleString('id-ID')}</p>
+                </div>
+            </div>
+        </Link>
+    );
 
-
-    const fetchData = async () => {
-        try {
-            await dispatch(fetchProducts());
-        } catch (error) {
-            console.log(error);
-        } finally {
-
+    const renderProducts = () => {
+        switch (type) {
+            case 'allProduct':
+                return product?.slice(0, productCount).map((item) => renderProductCard(item, 'w-1/3', 'h-[350px]'));
+            case 'hotItems':
+                return renderProductCard(hotItems, '', '');
+            case 'homeProduct':
+                return product?.slice(0, productCount).map((item) => renderProductCard(item, 'w-1/6', ''));
+            default:
+                return null;
         }
     };
 
-    useEffect(() => {
-        fetchData();
-    }, []);
+    console.log(type)
 
     return (
-        <>
-            {
-                hotItems ? (
-                    product.slice(0, 1).map((item) => (
-                        <div className={`w-${width} p-${padding} mb-${mb}`} key={item.id}>
-                            <img src={item.thumbnail} />
-                            <div className="flex flex-col justify-center">
-                                <div className="mt-2">
-                                    <p className="text-xs font-semibold">{item.name}</p>
-                                    <p className="text-xs">{item.category}</p>
-                                    <p className="text-xs">Rp {item.price.toLocaleString('id-ID')}</p>
-                                </div>
-                            </div>
-                        </div>
-                    ))
-                ) : (
-                    product.slice(0, productCount).map((item) => (
-                        <div className={`w-${width} p-${padding} mb-${mb}`} key={item.id}>
-                            <img src={item.thumbnail} />
-                            <div className="flex flex-col justify-center">
-                                <div className="mt-2">
-                                    <p className="text-xs font-semibold">{item.name}</p>
-                                    <p className="text-xs">{item.category}</p>
-                                    <p className="text-xs">Rp {item.price.toLocaleString('id-ID')}</p>
-                                </div>
-                            </div>
-                        </div>
-                    ))
-                )
-            }
-
-
-
-        </>
+        <div className="w-full flex flex-wrap">
+            {renderProducts()}
+        </div>
     )
 }

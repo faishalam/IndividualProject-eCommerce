@@ -13,7 +13,6 @@ module.exports = {
      * }], {});
     */
    const dataProducts = require('../data.json')
-  //  console.log(dataProducts)
    dataProducts.forEach((item) => {
     delete item.id
     item.createdAt = new Date()

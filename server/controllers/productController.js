@@ -1,4 +1,4 @@
-const { Product } = require("../models")
+const { Product, ProductStock } = require("../models")
 const { Op } = require("sequelize");
 
 class ProductController {
@@ -32,16 +32,16 @@ class ProductController {
             if (sortHighPrice) {
                 response = await Product.findAll({
                     order: [
-                        ['price', 'DESC'] 
+                        ['price', 'DESC']
                     ]
                 });
                 return res.status(200).json(response);
             }
 
-            if(sortLowPrice) {
+            if (sortLowPrice) {
                 response = await Product.findAll({
                     order: [
-                        ['price', 'ASC'] 
+                        ['price', 'ASC']
                     ]
                 });
                 return res.status(200).json(response);
@@ -54,7 +54,7 @@ class ProductController {
                 })
                 return res.status(200).json(response)
             }
-            
+
             response = await Product.findAll({
                 attribute: {
                     exclude: ["createdAt", "updatedAt"]
@@ -74,8 +74,13 @@ class ProductController {
                 where: { id },
                 attribute: {
                     exclude: ["createdAt", "updatedAt"]
+                },
+                include: {
+                    model: ProductStock,
                 }
             })
+
+            
             if (!response) return res.status(404).json({ message: "Product not found" })
             res.status(200).json(response)
         } catch (error) {

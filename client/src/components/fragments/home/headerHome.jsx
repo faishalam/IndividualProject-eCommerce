@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import Navbar from "../navbar";
 import Typing from "../../elements/typewriter";
 import Overlay from "../../elements/overlay";
@@ -18,7 +18,6 @@ export default function HeaderHome(props) {
 
     useEffect(() => {
         const timeout = setTimeout(() => {
-
             setIsNavbarVisible(false)
         }, 700)
 

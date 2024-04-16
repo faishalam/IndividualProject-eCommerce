@@ -1,4 +1,4 @@
-const { History, Cart } = require("../models")
+const { History, Cart, Product } = require("../models")
 
 
 class HistoryController {
@@ -8,10 +8,14 @@ class HistoryController {
                 where : {
                     userId : req.user.id,
                     payment : true
-                }
+                },
+                include : {
+                    model : Product
+                },
+                order: [
+                    ['createdAt', 'DESC'] 
+                ]
             })
-
-            if(response.length === 0) return res.status(404).json({ message : "No transaction yet" })
 
             res.status(200).json(response)
         } catch (error) {
