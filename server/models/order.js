@@ -39,12 +39,12 @@ module.exports = (sequelize, DataTypes) => {
         }
       }
     },
-    cart : {
+    cart: {
       type: DataTypes.ARRAY(DataTypes.STRING),
     },
     address: DataTypes.STRING,
     phone: DataTypes.STRING,
-    name : DataTypes.STRING,
+    name: DataTypes.STRING,
     status: DataTypes.STRING,
     price: DataTypes.INTEGER,
     paidDate: DataTypes.DATE
