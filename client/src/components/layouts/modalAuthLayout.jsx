@@ -19,7 +19,7 @@ export default function ModalAuth() {
 
     useEffect(() => {
         google.accounts.id.initialize({
-            client_id: "876218866866-gqvt56759r1nfnejqhh67065bdvgshbo.apps.googleusercontent.com",
+            client_id: process.env.G_CLIENT,
             callback: handleCredentialResponse
         });
         google.accounts.id.renderButton(
