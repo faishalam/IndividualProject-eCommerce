@@ -15,40 +15,46 @@ BACKEND :
   -NODEMAILER
 
 ### Fitur
-   User
-      - [x] Fitur Register
-      - [x] Fitur User mendapatkan email setelah berhasil register (nodemailer)
-      - [x] Fitur Login
-      - [x] Fitur Login melalui Google Auth
+User
+   - [x] Fitur Register
+   - [x] Fitur User mendapatkan email setelah berhasil register (nodemailer)
+   - [x] Fitur Login
+   - [x] Fitur Login melalui Google Auth
+   
       
-   Product
-      - [x] Fetch Product All
-      - [x] Filter Product Category
-      - [x] Search Product Name
-      - [x] Pagination Product
-      - [x] Get Product By Id
+Product
+   - [x] Fetch Product All
+   - [x] Filter Product Category
+   - [x] Search Product Name
+   - [x] Pagination Product
+   - [x] Get Product By Id
+   
 
-   Product Stock 
-      - [x] Fetch Stock per Product
+Product Stock 
+   - [x] Fetch Stock per Product
+   
       
-   Favourite
-      - [x] Fetch Favourite
-      - [x] Add Favourite
-      - [x] Delete Favourite
+Favourite
+   - [x] Fetch Favourite
+   - [x] Add Favourite
+   - [x] Delete Favourite
+   
       
-   Cart
-      - [x] Fetch Cart
-      - [x] Add Cart
-      - [x] Delete Cart
-      - [x] Update Cart
+Cart
+   - [x] Fetch Cart
+   - [x] Add Cart
+   - [x] Delete Cart
+   - [x] Update Cart
+   
 
-   Order
-      - [x] Add Order (Information User and product)
-      - [x] Payment by Midtrans
-      - [x] Update Status
+Order
+   - [x] Add Order (Information User and product)
+   - [x] Payment by Midtrans
+   - [x] Update Status
+   
 
-   History
-      - [x] Fetch History (Payment Success)
+History
+   - [x] Fetch History (Payment Success)
 
    
     
