@@ -1,4 +1,4 @@
-import Typing from "./typewriter"
+import Typing from "./Typewriter"
 
 export default function HeaderHomeVideo(props) {
     const { title, src1, typing, desc, setVideo } = props

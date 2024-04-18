@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux"
-import ButtonElement from "../../elements/buttonElement"
-import ModalInput from "../../elements/modalInput"
+import ButtonElement from "../../elements/ButtonElement"
+import ModalInput from "../../elements/ModalInput"
 import { useState } from "react"
 import { userRegister } from "../../../features/user/asyncAction"
 

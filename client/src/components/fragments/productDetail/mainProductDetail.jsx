@@ -1,6 +1,6 @@
-import { useDispatch, useSelector } from "react-redux";
-import ButtonElement from "../../elements/buttonElement";
-import ModalInput from "../../elements/modalInput";
+import { useSelector } from "react-redux";
+import ButtonElement from "../../elements/ButtonElement";
+import ModalInput from "../../elements/ModalInput";
 import { useEffect, useState } from "react";
 
 export default function MainProductDetail(props) {
@@ -20,8 +20,8 @@ export default function MainProductDetail(props) {
                     setSelectedSize(''),
                     setAvailableStock(null),
                     setForm({
-                        size : '',
-                        jumlah : 0
+                        size: '',
+                        jumlah: 0
                     })
                 ) : (
                     document.getElementById('modalAuth').showModal()

@@ -1,9 +1,9 @@
 import { useDispatch, useSelector } from "react-redux";
-import ButtonElement from "../../elements/buttonElement";
+import ButtonElement from "../../elements/ButtonElement";
 import { fetchCart, updateCart } from "../../../features/cart/asyncAction";
 import { heroService } from "../../../services/hero";
 import { useEffect } from "react";
-import ModalAddInformationLayout from "../../layouts/modalAddInformationLayout";
+import ModalAddInformationLayout from "../../layouts/ModalAddInformationLayout";
 import { getProductById } from "../../../features/product/asyncAction";
 import { useParams } from "react-router-dom";
 import { fetchStockById } from "../../../features/stock/asyncAction";

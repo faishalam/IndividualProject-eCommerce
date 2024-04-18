@@ -45,6 +45,7 @@ class UserController {
 
             res.status(200).json({ access_token: access_token })
         } catch (error) {
+            console.log(error)
             if (error.name === "SequelizeValidationError") {
                 return res.status(400).json({ message: error.errors[0].message })
             }

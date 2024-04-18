@@ -1,9 +1,9 @@
-import Footer from "../fragments/footer";
-import HeaderHome from "../fragments/home/headerHome";
-import MainHome from "../fragments/home/mainHome";
-import { useState } from "react";
-import CardProduct from "../fragments/cardProduct";
 import { Link } from "react-router-dom";
+import HeaderHome from "../fragments/home/HeaderHome"
+import CardProduct from "../fragments/CardProduct";
+import MainHome from "../fragments/home/MainHome";
+import Footer from "../fragments/Footer";
+import { useState } from "react";
 
 export default function HomeLayout(props) {
     const { product } = props

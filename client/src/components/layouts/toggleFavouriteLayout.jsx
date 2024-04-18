@@ -1,15 +1,21 @@
-import HeaderToggle from "../fragments/toggle/headerCart"
-import CardToggle from "../fragments/toggle/cardCart"
+import HeaderToggle from "../fragments/toggle/HeaderCart"
+import CardToggle from "../fragments/toggle/CardCart"
+import ButtonElement from "../elements/ButtonElement"
 
 export default function ToggleFavouriteLayout(props) {
     const { setFavouriteToggle, favouriteToggle, favourite } = props
+
+    const handleOnBack = () => {
+        setFavouriteToggle && setFavouriteToggle(false)
+    }
 
     return (
         <>
             <div className="w-1/4 h-screen bg-[#f7f7f7]">
                 <div className="w-full h-full flex flex-col">
                     <div className="flex justify-between items-center w-full h-12 px-5 border border-b-1 border-gray-300">
-                        <HeaderToggle setFavouriteToggle={setFavouriteToggle} title={'YOUR FAVOURITE'} />
+                        <ButtonElement classname="text-sm font-normal transition-transform duration-300 transform hover:translate-x-2 relative">YOUR FAVOURITE</ButtonElement>
+                        <ButtonElement handleClick={handleOnBack} classname="text-sm font-normal transition-transform duration-300 transform hover:translate-x-2 relative">BACK</ButtonElement>
                     </div>
 
                     {

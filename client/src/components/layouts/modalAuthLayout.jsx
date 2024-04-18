@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
-import LoginForm from "../fragments/auth/loginForm"
-import RegisterForm from "../fragments/auth/registerForm"
-import { googleLogin } from "../../features/user/asyncAction"
 import { useDispatch } from "react-redux"
+import { googleLogin } from "../../features/user/asyncAction"
+import LoginForm from "../fragments/auth/LoginForm"
+import RegisterForm from "../fragments/auth/RegisterForm"
 
 export default function ModalAuth() {
     const [auth, setAuth] = useState('login')
@@ -19,7 +19,7 @@ export default function ModalAuth() {
 
     useEffect(() => {
         google.accounts.id.initialize({
-            client_id: process.env.G_CLIENT,
+            client_id: "876218866866-gqvt56759r1nfnejqhh67065bdvgshbo.apps.googleusercontent.com",
             callback: handleCredentialResponse
         });
         google.accounts.id.renderButton(

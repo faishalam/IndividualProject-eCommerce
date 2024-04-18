@@ -1,10 +1,10 @@
 import { useDispatch, useSelector } from "react-redux";
-import AllProductsLayout from "../layouts/allProductsLayout";
-import { fetchProducts } from "../../features/product/asyncAction";
+import AllProductsLayout from "../components/layouts/AllProductsLayout";
+import { fetchProducts } from "../features/product/asyncAction";
 import { useEffect } from "react";
 import { useLocation, useParams } from "react-router-dom";
 
-export default function AllProducts() {
+export default function AllProductsPage() {
     const dispatch = useDispatch()
     const product = useSelector((state) => state.product.product);
     const params = useParams()

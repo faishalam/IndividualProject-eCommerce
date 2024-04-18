@@ -1,4 +1,4 @@
-import Typing from "./typewriter"
+import Typing from "./Typewriter"
 
 export default function HeaderHomeImage(props) {
     const { title, src1, src2, setImg, typing, desc } = props

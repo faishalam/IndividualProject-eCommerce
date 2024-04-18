@@ -13,7 +13,7 @@ class HistoryController {
                     model : Product
                 },
                 order: [
-                    ['createdAt', 'DESC'] 
+                    ['updatedAt', 'DESC'] 
                 ]
             })
 

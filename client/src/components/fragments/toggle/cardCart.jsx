@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ButtonElement from "../../elements/buttonElement";
+import ButtonElement from "../../elements/ButtonElement";
 import { useDispatch } from "react-redux";
 import { removeFavourite } from "../../../features/favourite/asyncAction";
 import { addToCart, removeCart } from "../../../features/cart/asyncAction";
@@ -42,7 +42,7 @@ export default function CardToggle(props) {
                 )
             case 'historyCard':
                 return (
-                    <div className="flex w-full gap-2">
+                    <div className="flex justify-between items-between w-full gap-2 mt-4">
                         <p className="text-sm text-green-500 h-6">{item?.payment === false ? 'UNPAID' : 'PAID'} </p>
                         <p className="text-sm text-[#cac5c5]"><i>{item?.createdAt.split('T')[0]}</i></p>
                     </div>
@@ -68,6 +68,14 @@ export default function CardToggle(props) {
                             <p className="text-sm">RP. {item?.Product?.price.toLocaleString('id-ID')}</p>
                             {
                                 type === 'cardCart' && (
+                                    <div className="flex w-full gap-2">
+                                        <p className="text-sm">({item?.size}) : {item?.jumlah}</p>
+                                    </div>
+                                )
+                            }
+
+{
+                                type === 'historyCard' && (
                                     <div className="flex w-full gap-2">
                                         <p className="text-sm">({item?.size}) : {item?.jumlah}</p>
                                     </div>
