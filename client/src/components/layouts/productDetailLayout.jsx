@@ -1,12 +1,10 @@
-import Navbar from "../fragments/navbar";
-import Footer from "../fragments/footer";
-import ButtonElement from "../elements/buttonElement";
+import Navbar from "../fragments/Navbar";
+import Footer from "../fragments/Footer";
 import { addToFavourite } from "../../features/favourite/asyncAction";
 import { addToCart } from "../../features/cart/asyncAction";
-import { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import ModalInput from "../elements/modalInput";
-import MainProductDetail from "../fragments/productDetail/mainProductDetail";
+import { useState } from "react";
+import { useDispatch } from "react-redux";
+import MainProductDetail from "../fragments/productDetail/MainProductDetail"
 
 export default function ProductDetailLayout(props) {
     const dispatch = useDispatch()

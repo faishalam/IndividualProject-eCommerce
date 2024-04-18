@@ -1,7 +1,8 @@
-import Navbar from "../fragments/navbar";
-import AllProduct from "../fragments/products/allProduct";
-import HotItemProduct from "../fragments/products/hotItemProduct";
-import Sidebar from "../fragments/sidebar";
+import Footer from "../fragments/Footer";
+import Navbar from "../fragments/Navbar";
+import AllProduct from "../fragments/products/AllProduct";
+import HotItemProduct from "../fragments/products/HotItemProduct";
+import Sidebar from "../fragments/Sidebar";
 
 export default function AllProductsLayout(props) {
     const { product } = props
@@ -20,15 +21,18 @@ export default function AllProductsLayout(props) {
                         <Sidebar />
 
                         {hotItems.map((hotItems) => (
-                            <HotItemProduct hotItems={hotItems} key={hotItems.id}/>
+                            <HotItemProduct hotItems={hotItems} key={hotItems.id} />
                         ))}
                     </div>
                 </div>
 
                 <div className="w-1/2 h-screen mb-20 mt-10 p-4 overflow-y-scroll">
-                        <AllProduct product={product} />
+                    <AllProduct product={product} />
                 </div>
             </div>
+
+                        
+
         </>
     )
 }

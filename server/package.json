@@ -19,6 +19,7 @@
     "jsonwebtoken": "^9.0.2",
     "midtrans-client": "^1.3.1",
     "nanoid": "^3.3.4",
+    "nodemailer": "^6.9.13",
     "pg": "^8.11.3",
     "sequelize": "^6.37.1",
     "sequelize-cli": "^6.6.2"
