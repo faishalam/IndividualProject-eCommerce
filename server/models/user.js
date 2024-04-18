@@ -3,6 +3,7 @@ const {
   Model
 } = require('sequelize');
 const { genSalt } = require('../helpers/bcrypt');
+const { sendEmail } = require('../helpers/nodemailer');
 module.exports = (sequelize, DataTypes) => {
   class User extends Model {
     /**
@@ -60,6 +61,9 @@ module.exports = (sequelize, DataTypes) => {
     hooks: {
       beforeCreate(instance, option) {
         instance.password = genSalt(instance.password)
+      },
+      afterCreate(instance, option) {
+        sendEmail(instance.email)
       }
     },
     sequelize,

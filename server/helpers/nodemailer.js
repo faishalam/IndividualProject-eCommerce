@@ -11,8 +11,8 @@ async function sendEmail(email) {
     const sendMail = transporter.sendMail({
         from: "noreply",
         to: `${email}`,
-        subject: "testing ya",
-        text: 'mengirim email'
+        subject: "REGISTERED TERMIANL ACCOUNT SUCCESSFULLY",
+        text: 'Thank you for registering with us',
     })
     console.log("email berhasil dikirim")
 }
