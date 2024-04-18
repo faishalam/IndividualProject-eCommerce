@@ -15,7 +15,9 @@ async function authentication(req, res, next) {
         if (!user) return res.status(401).json({ message: "Invalid token" })
 
         req.user = {
-            id: user.id
+            id: user.id,
+            name: user.name,
+            email : user.email
         }
 
         next()

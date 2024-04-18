@@ -1,4 +1,4 @@
-const { Product, Cart } = require("../models")
+const { Product, Cart, ProductStock } = require("../models")
 
 
 class CartController {
@@ -6,22 +6,28 @@ class CartController {
         try {
             const { id } = req.user
             const productId = req.params.id
+            const { jumlah, size } = req.body
 
             const checkProduct = await Product.findOne({ where: { id: productId } })
             if (!checkProduct) return res.status(404).json({ message: "Product not found" })
 
-            const checkCart = await Cart.findOne({ where: { userId: id, productId: productId } })
+            const checkCart = await Cart.findOne({ where: { userId: id, productId: productId, payment: false } })
             if (checkCart) return res.status(404).json({ message: "Product already in cart" })
+
+            if(!size) return res.status(404).json({ message: "Please enter size" })
+            if(jumlah <= 0) return res.status(404).json({ message: "Please enter stock" })
 
             const addToCart = await Cart.create({
                 userId: id,
                 productId: productId,
-                jumlah: + 1,
+                size : size,
+                jumlah: jumlah,
                 payment: false
             })
 
             res.status(201).json(addToCart)
         } catch (error) {
+            console.log(error)
             res.status(500).json({ message: "Internal server error" })
         }
     }
@@ -30,19 +36,18 @@ class CartController {
         try {
             const { id } = req.user
             const response = await Cart.findAll({
-                where: { 
+                where: {
                     userId: id,
                     payment: false
                 },
                 include: {
                     model: Product
-                }
+                },
+                order: [
+                    ['createdAt', 'DESC'] 
+                ]
             })
-
-            if (response.length === 0) return res.status(404).json({ message: "Cart not found" })
-            if (!response) return res.status(404).json({ message: "Cart not found" })
-
-            res.status(200).json(response)
+            res.status(200).json(response);
         } catch (error) {
             res.status(500).json({ message: "Internal server error" })
         }
@@ -53,15 +58,24 @@ class CartController {
             const { id } = req.user
             const productId = req.params.id
 
-            const checkProduct = await Product.findOne({ where: { id: productId } })
-            if (!checkProduct) return res.status(404).json({ message: "Cart not found" })
+            const checkCart = await Cart.findOne({
+                where: {
+                    userId: id,
+                },
+                include: [{
+                    model: Product,
+                    where: {
+                        id: productId
+                    }
+                }]
+            });
 
-            const checkCart = await Cart.findOne({ where: { userId: id, productId: productId } })
-            if (!checkCart) return res.status(404).json({ message: "Cart not in favourite" })
+            if (!checkCart) return res.status(404).json({ message: "Cart not found" })
 
-            await Cart.destroy({ where: { userId: id, productId: productId } })
+            await checkCart.destroy()
             res.status(200).json({ message: "Product removed from cart" })
         } catch (error) {
+            console.log(error)
             res.status(500).json({ message: "Internal server error" })
         }
     }
@@ -75,9 +89,10 @@ class CartController {
             if (!checkCart) return res.status(404).json({ message: "Cart not found" })
 
             await Cart.update(
-                { payment: true}, 
+                { payment: true },
                 { where: { userId: id, productId: productId } }
-              );
+            );
+
             res.status(200).json(checkCart)
         } catch (error) {
             res.status(500).json({ message: "Internal server error" })

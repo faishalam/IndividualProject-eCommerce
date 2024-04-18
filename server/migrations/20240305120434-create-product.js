@@ -30,6 +30,9 @@ module.exports = {
       images : {
         type : Sequelize.ARRAY(Sequelize.STRING)
       },
+      size : {
+        type : Sequelize.ARRAY(Sequelize.STRING)
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

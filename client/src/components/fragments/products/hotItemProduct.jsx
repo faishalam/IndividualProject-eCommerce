@@ -1,5 +1,4 @@
 import CardProduct from "../cardProduct";
-import Sidebar from "../sidebar";
 
 const hotItems = {
     "name": "ENLITE DOUBLE TSHIRT BLACK",
@@ -20,13 +19,15 @@ const hotItems = {
     "updatedAt": "2024-03-18T14:47:12.101Z"
 }
 
-export default function HotItemProduct() {
+export default function HotItemProduct(props) {
+    const {hotItems} = props
+
     return (
         <>
             <div className="w-3/4 h-screen mb-20 mt-10 p-4 bg-[#f7f7f7] overflow-y-scroll">
                 <div className="flex flex-col">
                     <p className="p-2 text-sm">HOT ITEMS</p>
-                    <CardProduct hotItems={hotItems} padding={'2'} mb={'10'} />
+                    <CardProduct hotItems={hotItems} type={'hotItems'} />
                 </div>
             </div>
         </>

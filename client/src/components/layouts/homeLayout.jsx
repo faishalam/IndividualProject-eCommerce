@@ -1,12 +1,12 @@
-import { Link } from "react-router-dom";
-import Overlay from "../elements/overlay";
 import Footer from "../fragments/footer";
 import HeaderHome from "../fragments/home/headerHome";
 import MainHome from "../fragments/home/mainHome";
 import { useState } from "react";
 import CardProduct from "../fragments/cardProduct";
+import { Link } from "react-router-dom";
 
 export default function HomeLayout(props) {
+    const { product } = props
     const [view, setView] = useState(false)
 
     return (
@@ -15,17 +15,16 @@ export default function HomeLayout(props) {
                 <HeaderHome setView={setView} />
             </div >
 
-
             {
                 view === true && (
                     <>
-                        <div className="flex justify-between mx-10 mt-14 mb-10">
+                        <div className="flex justify-between mx-12 mt-14 mb-10">
                             <p className="text-sm font-semibold">PRODUCTS</p>
-                            <p className="text-sm font-semibold">VIEW ALL</p>
+                            <Link to={'/products'} className="text-sm font-semibold">VIEW ALL</Link>
                         </div>
 
                         <div className="flex justify-center gap-10 mx-10 mb-20">
-                            <CardProduct width="1/6"/>
+                            <CardProduct product={product} type={'homeProduct'}/>
                         </div>
 
                         <div className="relative w-full h-[800px]">
@@ -38,7 +37,6 @@ export default function HomeLayout(props) {
                     </>
                 )
             }
-
         </>
     );
 }

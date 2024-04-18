@@ -26,6 +26,9 @@ module.exports = {
       jumlah: {
         type: Sequelize.INTEGER
       },
+      size : {
+        type: Sequelize.STRING
+      },
       payment : {
         type: Sequelize.BOOLEAN
       },

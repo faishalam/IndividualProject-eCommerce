@@ -2,10 +2,11 @@
   {
     "name": "ENLITE DOUBLE TSHIRT BLACK",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 189000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/black_17.jpg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/black_17.jpg",
       "https://spaces.ilfen.co/assets/image/produk/black_26.jpg",
@@ -20,10 +21,11 @@
   {
     "name": "ENLITE DOUBLE TSHIRT CHOCO",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 189000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/choco_1.jpg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/choco_2.jpg",
       "https://spaces.ilfen.co/assets/image/produk/choco_3.jpg",
@@ -36,10 +38,11 @@
   {
     "name": "ENLITE DOUBLE TSHIRT NAVY",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 189000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/navy_13.jpg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/navy_13.jpg",
       "https://spaces.ilfen.co/assets/image/produk/navy_22.jpg",
@@ -53,10 +56,11 @@
   {
     "name": "ENLITE DOUBLE TSHIRT WHITE",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 189000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/white_15.jpg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/white_15.jpg",
       "https://spaces.ilfen.co/assets/image/produk/white_23.jpg",
@@ -70,10 +74,11 @@
   {
     "name": "ENLITE DOUBLE TSHIRT RED",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 189000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/red_1.jpg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/red_1.jpg",
       "https://spaces.ilfen.co/assets/image/produk/red_2.jpg",
@@ -87,10 +92,11 @@
   {
     "name": "ENLITE DOUBLE TSHIRT CHARCOAL",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 189000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/CHARCOAL1.jpg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/CHARCOAL1.jpg",
       "https://spaces.ilfen.co/assets/image/produk/CHARCOAL_2.jpg",
@@ -104,10 +110,11 @@
   {
     "name": " DOUBLE TSHIRT DARK GREEN",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 189000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/d_green_1.jpg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/d_green_1.jpg",
       "https://spaces.ilfen.co/assets/image/produk/d_green_2.jpg",
@@ -121,10 +128,11 @@
   {
     "name": "SHORT SLEEVE SHIRT BLACK",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 299000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/97f60b72-c4ff-45d8-b5b9-c43efb563e80.jpeg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/97f60b72-c4ff-45d8-b5b9-c43efb563e80.jpeg",
       "https://spaces.ilfen.co/assets/image/produk/625ecf12-1d5e-4b54-8eff-1f87b2a327c7.jpg",
@@ -138,10 +146,11 @@
   {
     "name": "SHORT SLEEVE BROWN",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 299000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/fbecfee9-5697-4d56-a6d8-707d6ec746cc.jpeg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/fbecfee9-5697-4d56-a6d8-707d6ec746cc.jpeg",
       "https://spaces.ilfen.co/assets/image/produk/13929cef-b358-43bb-9348-fad0fdb40402.jpg",
@@ -155,10 +164,11 @@
   {
     "name": "SHORT SLEEVE WHITE",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 299000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/a658f8f2-cbc6-4f52-8019-20d9be146771.jpeg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/a658f8f2-cbc6-4f52-8019-20d9be146771.jpeg",
       "https://spaces.ilfen.co/assets/image/produk/5ab11a21-301a-4509-926b-b1f44f8f6c81.jpg",
@@ -172,10 +182,11 @@
   {
     "name": "SHORT SLEEVE ATLANTIC BLUE",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 299000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/db3441de-ef8b-491c-9692-7996aa17386b1.jpeg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/db3441de-ef8b-491c-9692-7996aa17386b1.jpeg",
       "https://spaces.ilfen.co/assets/image/produk/c0dce3c5-b306-4470-a117-6013149a6618.jpeg",
@@ -189,10 +200,11 @@
   {
     "name": "SHORT SLEEVE SHIRT BROWN",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 299000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/654b171e-ce95-42d2-8c07-1469c5ddfad0.jpeg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/fe1c7a27-29c3-4304-b6af-6063cca81414.jpg",
       "https://spaces.ilfen.co/assets/image/produk/38f62728-22d6-4e66-b237-4320de71a877.jpg",
@@ -205,10 +217,11 @@
   {
     "name": "POLO STRIPE 3 STRIPE NAVY BROWN",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 349000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/7d53b89e-2a35-4e52-bad9-a0e74e6cbba4.jpeg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/7d53b89e-2a35-4e52-bad9-a0e74e6cbba4.jpeg",
       "https://spaces.ilfen.co/assets/image/produk/4b1a09be-3415-413a-9910-31cce8a3ba38.jpeg",
@@ -221,10 +234,11 @@
   {
     "name": "POLO STRIPE 4 STRIPE GREY WHITE",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 349000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/deec6fde-2b66-446b-be07-b400d5295d6c.jpeg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/deec6fde-2b66-446b-be07-b400d5295d6c.jpeg",
       "https://spaces.ilfen.co/assets/image/produk/f18aee39-d785-4eb9-baa9-9948c5ae305e.jpeg",
@@ -237,10 +251,11 @@
   {
     "name": "POLO STRIPE 4 STRIPE NAVY GREEN",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 349000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/f625ecca-f99e-41c1-aeb9-c12844a5de69.jpeg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/f625ecca-f99e-41c1-aeb9-c12844a5de69.jpeg",
       "https://spaces.ilfen.co/assets/image/produk/aa1d610e-f31c-4dc0-929c-1fb6f407534f.jpeg",
@@ -254,10 +269,11 @@
   {
     "name": "POLO STRIPE 4 LIGHT BLUE WHITE",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 349000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/05965a4a-6954-48d4-acb9-5d32279e0792.jpeg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/05965a4a-6954-48d4-acb9-5d32279e0792.jpeg",
       "https://spaces.ilfen.co/assets/image/produk/dc3bc611-e0bb-445a-9236-cb71624b18f9.jpeg",
@@ -271,10 +287,11 @@
   {
     "name": "MONOLINE T-SHIRT WHITE",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 189000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/c736509c-4a23-4edc-9629-6fb02eadf5f4.jpeg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/c736509c-4a23-4edc-9629-6fb02eadf5f4.jpeg",
       "https://spaces.ilfen.co/assets/image/produk/8d417714-d3f0-4aee-814b-4e5d86a1d63c.jpeg",
@@ -288,10 +305,11 @@
   {
     "name": "MONOLINE T-SHIRT NAVY",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 189000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/bb9274c6-20b8-4193-8cf2-72268e64cad3.jpg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/bb9274c6-20b8-4193-8cf2-72268e64cad3.jpg",
       "https://spaces.ilfen.co/assets/image/produk/365614af-ffc6-4408-9eb8-5b4cac54be88.jpg",
@@ -305,10 +323,11 @@
   {
     "name": "MONOLINE T-SHIRT CHARCOAL",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 189000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/d879ff9f-a68f-4537-86f0-fc8d6a509715.jpeg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/6b1f81ca-38af-4999-a18d-493160cb9683.jpeg",
       "https://spaces.ilfen.co/assets/image/produk/35a47693-cc2f-4700-8a55-76b792cbda71.jpeg",
@@ -321,10 +340,11 @@
   {
     "name": "MONOLINE T-SHIRT CHOCO",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 189000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/5aee7619-0580-4b4d-ace0-77d518fb40fa.jpeg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/5aee7619-0580-4b4d-ace0-77d518fb40fa.jpeg",
       "https://spaces.ilfen.co/assets/image/produk/ed594048-1fa3-4839-a445-5c4f16cf90a8.jpeg",
@@ -337,10 +357,11 @@
   {
     "name": "POLO STRIPE 3 MAROON BLACK",
     "category": "TSHIRT",
-    "description": "Warna yang terlihat pada gambar mungkin tidak 100% sama dengan produk yang sebenarnya,.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "excerpt": "Cotton 16’s (100% Cotton )",
     "price": 189000,
     "thumbnail": "https://spaces.ilfen.co/assets/image/produk/de8571e3-c194-4b5b-9100-f1733b542dc21.jpeg",
+    "size" : ["S", "M", "L", "XL"],
     "images": [
       "https://spaces.ilfen.co/assets/image/produk/1f69c3bc-decf-441a-9ed0-67b95282643e1.jpeg",
       "https://spaces.ilfen.co/assets/image/produk/ae2d2366-1b3d-4800-8349-d2c5729006c1.jpeg",
@@ -349,6 +370,20 @@
     ],
     "createdAt": "2023-12-15T15:32:06.350Z",
     "updatedAt": "2024-03-18T14:47:12.101Z"
+  },
+  {
+    "name": "MERC KYARIPA",
+    "category": "HAT",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "excerpt": "Cotton 16’s (100% Cotton )",
+    "price": 299000,
+    "thumbnail": "https://i.ibb.co/f8wVPdg/Snapinsta-app-376243602-1508518506585212-6333591473137986777-n-1080.jpg",
+    "size" : ["S", "M", "L", "XL"],
+    "images": [
+      "https://i.ibb.co/f8wVPdg/Snapinsta-app-376243602-1508518506585212-6333591473137986777-n-1080.jpg",
+      "https://i.ibb.co/6wqxvzk/Snapinsta-app-376014859-650913446811776-751314826776401467-n-1080.jpg",
+      "https://i.ibb.co/g7d7PYR/Snapinsta-app-375895373-274111105386445-6553718570142095882-n-1080.jpg"
+    ]
   }
 ]
 

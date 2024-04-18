@@ -53,6 +53,18 @@ module.exports = (sequelize, DataTypes) => {
         }
       }
     },
+    size : {
+      type : DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notNull: {
+          msg: "Size is required"
+        },
+        notEmpty: {
+          msg: "Size is required"
+        }
+      }
+    },
     payment : {
       type : DataTypes.BOOLEAN,
       defaultValue : false,
