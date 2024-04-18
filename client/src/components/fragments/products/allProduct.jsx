@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import CardProduct from "../cardProduct";
+import CardProduct from "../CardProduct";
 
 export default function AllProduct(props) {
     const { product } = props

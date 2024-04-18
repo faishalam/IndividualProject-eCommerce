@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import Navbar from "../navbar";
-import Typing from "../../elements/typewriter";
-import Overlay from "../../elements/overlay";
+import Navbar from "../Navbar";
+import Typing from "../../elements/Typewriter";
+import Overlay from "../../elements/Overlay";
 import { motion } from "framer-motion"
-import Motion from "../../elements/motion";
-import HeaderHomeImage from "../../elements/headerHomeImage";
-import HeaderHomeVideo from "../../elements/headerHomeVideo";
+import Motion from "../../elements/Motion";
+import HeaderHomeImage from "../../elements/HeaderHomeImage";
+import HeaderHomeVideo from "../../elements/HeaderHomeVideo";
 
 
 export default function HeaderHome(props) {

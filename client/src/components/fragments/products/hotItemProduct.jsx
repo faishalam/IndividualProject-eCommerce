@@ -1,4 +1,4 @@
-import CardProduct from "../cardProduct";
+import CardProduct from "../CardProduct";
 
 const hotItems = {
     "name": "ENLITE DOUBLE TSHIRT BLACK",

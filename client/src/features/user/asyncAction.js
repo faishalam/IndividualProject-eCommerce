@@ -1,4 +1,7 @@
 import { heroService } from "../../services/hero"
+import { fetchCart } from "../cart/asyncAction"
+import { fetchFavourite } from "../favourite/asyncAction"
+import { fetchHistory } from "../history/asyncAction"
 import { setUser } from "./userSlice"
 
 
@@ -10,9 +13,13 @@ export const userLogin = (form) => {
 
             if (response.data !== null) {
                 dispatch(setUser(response.data.access_token))
-            }
 
+            }
+            dispatch(fetchCart())
+            dispatch(fetchFavourite())
+            dispatch(fetchHistory())
         } catch (error) {
+            console.log(error)
             throw error.response.data.message
         }
     }
@@ -45,6 +52,9 @@ export const googleLogin = (response) => {
             if (res.data !== null) {
                 dispatch(setUser(res.data.access_token))
             }
+            dispatch(fetchCart())
+            dispatch(fetchFavourite())
+            dispatch(fetchHistory())
         } catch (error) {
             console.log(error)
         }

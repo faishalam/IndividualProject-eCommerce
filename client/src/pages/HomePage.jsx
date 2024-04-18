@@ -1,9 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
-import HeaderHome from "../fragments/home/headerHome";
-import Navbar from "../fragments/navbar";
-import HomeLayout from "../layouts/homeLayout";
-import { useEffect, useState } from "react";
-import { fetchProducts } from "../../features/product/asyncAction";
+import { fetchProducts } from "../features/product/asyncAction";
+import { useEffect } from "react";
+import HomeLayout from "../components/layouts/HomeLayout";
 
 export default function HomePage() {
     const dispatch = useDispatch()

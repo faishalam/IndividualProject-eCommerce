@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react"
-import LoginForm from "../fragments/auth/loginForm"
-import RegisterForm from "../fragments/auth/registerForm"
-import ModalInput from "../elements/modalInput"
-import ButtonElement from "../elements/buttonElement"
+import LoginForm from "../fragments/auth/LoginForm"
+import RegisterForm from "../fragments/auth/RegisterForm"
+import ModalInput from "../elements/ModalInput"
+import ButtonElement from "../elements/ButtonElement"
 import { useDispatch, useSelector } from "react-redux"
 import { fetchCart } from "../../features/cart/asyncAction"
 import { heroService } from "../../services/hero"
 import AddInformationForm from "../fragments/payment/AddInformationForm"
 import { fetchStock, fetchStockById } from "../../features/stock/asyncAction"
 import { useParams } from "react-router-dom"
+import { fetchHistory } from "../../features/history/asyncAction"
 
 export default function ModalAddInformationLayout() {
     const idStock = useParams()
@@ -64,6 +65,7 @@ export default function ModalAddInformationLayout() {
                         }
                     })
                     await dispatch(fetchCart())
+                    await dispatch(fetchHistory())
                     await dispatch(fetchStockById(idStock.id))
                 },
                 onPending: function (result) {

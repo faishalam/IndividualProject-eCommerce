@@ -1,18 +1,27 @@
-import HeaderToggle from "../fragments/toggle/headerCart"
-import CardToggle from "../fragments/toggle/cardCart"
-import FooterToggle from "../fragments/toggle/footerCart"
+import HeaderToggle from "../fragments/toggle/HeaderCart"
+import CardToggle from "../fragments/toggle/CardCart"
+import FooterToggle from "../fragments/toggle/FooterCart"
 import { useState } from "react"
+import ButtonElement from "../elements/ButtonElement"
 
 export default function ToggleCartLayout(props) {
-    const { setCartToggle, cartToggle, classname, cart, history } = props
+    const { setCartToggle, cartToggle, cart, history } = props
     const [toggleHistory, setToggleHistory] = useState(false)
 
-    const price = cart?.reduce((total, item) => {
+    const price = Array.isArray(cart) && cart?.reduce((total, item) => {
         return total + item.Product.price * item.jumlah
     }, 0)
 
     const handleClickHistory = () => {
         setToggleHistory(true)
+    }
+
+    const handleClickCart = () => {
+        setToggleHistory(!cartToggle)
+    }
+
+    const handleOnBack = () => {
+        setCartToggle && setCartToggle(false)
     }
 
 
@@ -21,48 +30,48 @@ export default function ToggleCartLayout(props) {
             <div className={`w-1/4 h-screen bg-[#f7f7f7] `}>
                 <div className="w-full h-full flex flex-col">
                     <div className="flex justify-between items-center w-full h-12 px-5 border border-b-1 border-gray-300">
-                        <HeaderToggle setCartToggle={setCartToggle} title={'CART'} />
-                        <button onClick={handleClickHistory} className="text-sm">HISTORY</button>
+                        <ButtonElement handleClick={handleClickCart} classname="text-sm font-normal transition-transform duration-300 transform hover:translate-x-2 relative">CART</ButtonElement>
+                        <ButtonElement handleClick={handleClickHistory} classname="text-sm font-normal transition-transform duration-300 transform hover:translate-x-2 relative">HISTORY</ButtonElement>
+                        <ButtonElement handleClick={handleOnBack} classname="text-sm font-normal transition-transform duration-300 transform hover:translate-x-2 relative">BACK</ButtonElement>
                     </div>
 
-                    {
-                        toggleHistory ? (
-                            <div className="flex-grow flex flex-col items-center overflow-y-scroll">
-                                {
-                                    history?.length === 0 && (
-                                        <div className="flex justify-center w-full h-full">
-                                            <p className="text-sm">THERE IS NOTHING IN YOUR HISTORY</p>
-                                        </div>
-                                    )
-                                }
-
-                                {history?.map((item) => (
-                                    <CardToggle item={item} type={'historyCard'} key={item.id} />
-                                ))}
-                            </div>
-                        ) : (
-                            <>
-                                {cart?.length === 0 ? (
-                                    <div className="flex justify-center items-center w-full h-full">
-                                        <p className="text-sm">THERE IS NOTHING IN YOUR CART</p>
-                                    </div>
-                                ) : (
-                                    <div className="flex-grow flex flex-col overflow-y-scroll">
-                                        {cart?.map((item) => (
-                                            <CardToggle item={item} type={'cardCart'} key={item?.id} />
-                                        ))}
-                                    </div>
-                                )}
-
-                                < div className="w-full h-32 flex flex-col justify-center items-center border border-t-1 border-gray-300">
-                                    <FooterToggle price={price} id={cart?.map((item) => item?.Product?.id)} />
-
+                    {!toggleHistory && (
+                        <>
+                            {cart?.length === 0 ? (
+                                <div className="flex justify-center items-center w-full h-full">
+                                    <p className="text-sm">THERE IS NOTHING IN YOUR CART</p>
                                 </div>
-                            </>
-                        )
-                    }
+                            ) : (
+                                <div className="flex-grow flex flex-col overflow-y-scroll">
+                                    {cart?.map((item) => (
+                                        <CardToggle item={item} type={'cardCart'} key={item?.id} />
+                                    ))}
+                                </div>
+                            )}
+
+                            < div className="w-full h-32 flex flex-col justify-center items-center border border-t-1 border-gray-300">
+                                <FooterToggle price={price} id={Array.isArray(cart) && cart?.map((item) => item?.Product?.id)} />
+                            </div>
+                        </>
+                    )}
+
+                    {toggleHistory && (
+                        <>
+                            {history?.length === 0 ? (
+                                <div className="flex justify-center items-center w-full h-full">
+                                    <p className="text-sm">THERE IS NOTHING IN YOUR HISTORY</p>
+                                </div>
+                            ) : (
+                                <div className="flex-grow flex flex-col overflow-y-scroll">
+                                    {history?.map((item) => (
+                                        <CardToggle item={item} type={'historyCard'} key={item?.id} />
+                                    ))}
+                                </div>
+                            )}
+                        </>
+                    )}
                 </div>
-            </div>
+            </div >
         </>
     )
 }

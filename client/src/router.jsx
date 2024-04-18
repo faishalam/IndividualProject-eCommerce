@@ -1,8 +1,8 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
-import HomePage from "./components/pages/homePage";
-import AllProducts from "./components/pages/allProductsPage";
-import ProductDetail from "./components/pages/productDetail";
+import HomePage from "./pages/HomePage";
+import ProductDetailPage from "./pages/ProductDetailPage";
+import AllProductsPage from "./pages/AllProductsPage";
 
 const router = createBrowserRouter([
     {
@@ -11,20 +11,20 @@ const router = createBrowserRouter([
     },
     {
         path: "/products",
-        element: <AllProducts />
+        element: <AllProductsPage />
     },
     {
         path: "/products/:filter",
-        element: <AllProducts />
+        element: <AllProductsPage />
     },
     {
         path: "/products/:search",
-        element: <AllProducts />
+        element: <AllProductsPage />
     },
     
     {
         path: "/product-detail/:id",
-        element: <ProductDetail />
+        element: <ProductDetailPage />
     },
 
 

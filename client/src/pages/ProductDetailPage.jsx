@@ -1,13 +1,11 @@
-import { useDispatch, useSelector } from "react-redux";
-import ProductDetailLayout from "../layouts/productDetailLayout";
-import { useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
-import { fetchStockById } from "../../features/stock/asyncAction";
-import { getProductById } from "../../features/product/asyncAction";
-import { addToFavourite } from "../../features/favourite/asyncAction";
-import { addToCart } from "../../features/cart/asyncAction";
+import { useEffect, useState } from "react"
+import { useDispatch, useSelector } from "react-redux"
+import { useParams } from "react-router-dom"
+import { getProductById } from "../features/product/asyncAction"
+import { fetchStockById } from "../features/stock/asyncAction"
+import ProductDetailLayout from "../components/layouts/ProductDetailLayout"
 
-export default function ProductDetail() {
+export default function ProductDetailPage() {
     const { id } = useParams()
     const dispatch = useDispatch()
     const [isLoading, setIsLoading] = useState(true)

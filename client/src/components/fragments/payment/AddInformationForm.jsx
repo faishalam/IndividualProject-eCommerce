@@ -1,5 +1,5 @@
-import ButtonElement from "../../elements/buttonElement"
-import ModalInput from "../../elements/modalInput"
+import ButtonElement from "../../elements/ButtonElement"
+import ModalInput from "../../elements/ModalInput"
 
 export default function AddInformationForm(props) {
     const { form, handleChange, handleOnSubmit } = props

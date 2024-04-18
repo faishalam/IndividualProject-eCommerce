@@ -1,4 +1,4 @@
-import ButtonElement from "../../elements/buttonElement";
+import ButtonElement from "../../elements/ButtonElement";
 
 export default function HeaderToggle(props) {
     const { setCartToggle, setFavouriteToggle, title } = props
