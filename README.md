@@ -48,7 +48,7 @@ Many-to-Many dan one-to-many (ERD terdapat di repo)
          - [x] Update Cart
          
       Order
-         - [x] Add Order (Information User and product)
+         - [x] Add Order (Information User product, stock, size)
          - [x] Payment by Midtrans
          - [x] Update Status
       
