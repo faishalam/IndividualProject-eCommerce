@@ -5,7 +5,7 @@ import { useState } from "react"
 import { userRegister } from "../../../features/user/asyncAction"
 
 export default function RegisterForm(props) {
-    const { setAuth } = props
+    const { setAuth, googleButton } = props
     const dispatch = useDispatch()
     const [loading, isLoading] = useState(false)
     const [error, setError] = useState('');
@@ -110,6 +110,8 @@ export default function RegisterForm(props) {
                     <p className="text-xs my-2">Have an account?</p>
 
                     <button className="text-xs text-blue-400" onClick={handleClick}>LOGIN</button>
+
+                    {googleButton}
                 </div>
 
             </form>

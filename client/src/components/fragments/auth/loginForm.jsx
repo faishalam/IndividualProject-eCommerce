@@ -1,12 +1,13 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ButtonElement from "../../elements/buttonElement";
 import ModalInput from "../../elements/modalInput";
 import { useDispatch } from "react-redux";
-import { userLogin } from "../../../features/user/asyncAction";
+import { googleLogin, userLogin } from "../../../features/user/asyncAction";
 import { ToastContainer, toast } from 'react-toastify';
+import { heroService } from "../../../services/hero";
 
 export default function LoginForm(props) {
-    const { setAuth } = props
+    const { setAuth, googleButton } = props
     const dispatch = useDispatch()
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState('');
@@ -34,7 +35,7 @@ export default function LoginForm(props) {
                 })
                 setError('')
                 document.getElementById('modalAuth').close()
-            
+
             } catch (error) {
                 setError(error)
             } finally {
@@ -47,6 +48,27 @@ export default function LoginForm(props) {
         e.preventDefault()
         setAuth('register')
     }
+
+    // async function handleCredentialResponse(response) {
+    //     try {
+    //         await dispatch(googleLogin(response))
+    //         document.getElementById('modalAuth').close()
+    //     } catch (error) {
+    //         console.log(error)
+    //     }
+    // }
+
+    // useEffect(() => {
+    //     google.accounts.id.initialize({
+    //         client_id: "876218866866-gqvt56759r1nfnejqhh67065bdvgshbo.apps.googleusercontent.com",
+    //         callback: handleCredentialResponse
+    //     });
+    //     google.accounts.id.renderButton(
+    //         document.getElementById("buttonDiv"),
+    //         { theme: "outline", size: "medium" }
+    //     );
+    //     google.accounts.id.prompt();
+    // }, [])
 
     return (
         <>
@@ -88,7 +110,7 @@ export default function LoginForm(props) {
                 <div className="flex flex-col justify-center items-center ">
                     <ButtonElement
                         type={"submit"}
-                        classname={"bg-black w-32 h-8 rounded text-white text-xs"}
+                        classname={"bg-black mt-4 w-32 h-8 rounded text-white text-xs"}
                     >
                         LOGIN
                     </ButtonElement>
@@ -98,6 +120,11 @@ export default function LoginForm(props) {
                     <button className="text-xs text-red-400" onClick={handleClick}>
                         SIGN UP
                     </button>
+
+                    <div className="mt-6">
+                        {googleButton}
+                    </div>
+
                 </div>
             </form>
         </>

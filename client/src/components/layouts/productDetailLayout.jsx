@@ -10,7 +10,7 @@ import MainProductDetail from "../fragments/productDetail/mainProductDetail";
 
 export default function ProductDetailLayout(props) {
     const dispatch = useDispatch()
-    const { id, isLoading, productById } = props
+    const { id, isLoading, productById, stockById } = props
     const [availableStock, setAvailableStock] = useState(0)
     const [form, setForm] = useState({
         "jumlah": 0,
@@ -20,7 +20,7 @@ export default function ProductDetailLayout(props) {
     const [seletedSize, setSelectedSize] = useState(false)
 
     const onHandleChange = (size) => {
-        const checkStock = productById.ProductStocks[0][size]
+        const checkStock = stockById[size]
         setAvailableStock(checkStock)
 
         setForm({
@@ -40,9 +40,16 @@ export default function ProductDetailLayout(props) {
         }
     }
 
-    const onAddToFavourite = () => {
-        dispatch(addToFavourite(id))
+    const onAddToFavourite = async () => {
+        try {
+            await dispatch(addToFavourite(id))
+            setError('')
+        } catch (error) {
+            console.log(error)
+            setError(error)
+        }
     }
+
 
     return (
         <>
@@ -71,6 +78,8 @@ export default function ProductDetailLayout(props) {
                                 productById={productById}
                                 error={error}
                                 onHandleChange={onHandleChange}
+                                setSelectedSize={setSelectedSize}
+                                setAvailableStock={setAvailableStock}
                                 seletedSize={seletedSize}
                                 availableStock={availableStock}
                                 form={form}

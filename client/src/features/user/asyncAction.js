@@ -32,6 +32,25 @@ export const userRegister = (form) => {
     }
 }
 
+export const googleLogin = (response) => {
+    return async (dispatch) => {
+        try {
+            const res = await heroService.post('/login/auth/google', {}, {
+                headers: {
+                    g_token: `${response.credential}`
+                }
+            })
+            localStorage.setItem("access_token", res.data.access_token)
+
+            if (res.data !== null) {
+                dispatch(setUser(res.data.access_token))
+            }
+        } catch (error) {
+            console.log(error)
+        }
+    }
+}
+
 export const userLogout = () => {
     return async (dispatch) => {
         dispatch(setUser({}))

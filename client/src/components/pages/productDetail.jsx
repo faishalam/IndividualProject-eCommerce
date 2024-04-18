@@ -11,12 +11,13 @@ export default function ProductDetail() {
     const { id } = useParams()
     const dispatch = useDispatch()
     const [isLoading, setIsLoading] = useState(true)
+    const stockById = useSelector((state) => state.stock.stockById)
     const productById = useSelector((state) => state.product.productById)
 
     const getDataById = async () => {
         try {
-            dispatch(getProductById(id));
-            dispatch(fetchStockById(id))
+            await dispatch(getProductById(id));
+            await dispatch(fetchStockById(id))
             setIsLoading(false)
         } catch (error) {
             console.log(error);
@@ -27,13 +28,13 @@ export default function ProductDetail() {
 
     useEffect(() => {
         getDataById()
-    }, [])
+    }, [dispatch])
 
 
     return (
         <>
             <div className="bg-white"> 
-                <ProductDetailLayout id={id} isLoading={isLoading} productById={productById} />
+                <ProductDetailLayout id={id} isLoading={isLoading} productById={productById} stockById={stockById}/>
             </div>
         </>
     )

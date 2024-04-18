@@ -14,7 +14,6 @@ export const fetchCart = () => {
 
             if (response.data !== null) {
                 dispatch(setCart(response.data))
-
             }
 
         } catch (error) {
@@ -62,19 +61,20 @@ export const removeCart = (id) => {
     }
 }
 
-export const updateCart = (id) => {
+export const updateCart = (id, form) => {
+    console.log(id, form, '<<<<<')
     return async (dispatch) => {
-        try {
-            const response = await heroService.patch(`/cart/${id}`, {
-                headers: {
-                    Authorization: `Bearer ${localStorage.getItem("access_token")}`
-                }
-            })
-            dispatch(fetchCart())
-            dispatch(fetchHistory())
-        } catch (error) {
-            console.log(error)
-        }
+        // try {
+        //     const response = await heroService.patch(`/cart/${id}`, {
+        //         headers: {
+        //             Authorization: `Bearer ${localStorage.getItem("access_token")}`
+        //         }
+        //     })
+        //     dispatch(fetchCart())
+        //     dispatch(fetchHistory())
+        // } catch (error) {
+        //     console.log(error)
+        // }
     }
 }
 

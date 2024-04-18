@@ -27,6 +27,7 @@ class CartController {
 
             res.status(201).json(addToCart)
         } catch (error) {
+            console.log(error)
             res.status(500).json({ message: "Internal server error" })
         }
     }
@@ -91,7 +92,6 @@ class CartController {
                 { payment: true },
                 { where: { userId: id, productId: productId } }
             );
-
 
             res.status(200).json(checkCart)
         } catch (error) {

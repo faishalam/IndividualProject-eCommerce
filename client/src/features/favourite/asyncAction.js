@@ -35,7 +35,7 @@ export const addToFavourite = (id) => {
                 dispatch(fetchFavourite())
             }
         } catch (error) {
-            console.log(error)
+            throw error.response.data.message
         }
     }
 }

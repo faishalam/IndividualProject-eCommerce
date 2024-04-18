@@ -5,6 +5,7 @@ const productRouter = require('./product')
 const chartRouter = require('./cart')
 const historyRouter = require('./history')
 const productStockRouter = require('./productStock')
+const paymentRouter = require('./payment')
 
 const router = express.Router()
 
@@ -14,6 +15,7 @@ router.use("/", productRouter)
 router.use("/", favouriteRouter)
 router.use("/", chartRouter)
 router.use("/", historyRouter)
+router.use("/", paymentRouter)
 
 
 

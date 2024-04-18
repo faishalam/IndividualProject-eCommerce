@@ -4,7 +4,7 @@ import ModalInput from "../../elements/modalInput";
 import { useEffect, useState } from "react";
 
 export default function MainProductDetail(props) {
-    const { id, productById, onHandleChange, seletedSize, availableStock, error, form, onAddToCart, onAddToFavourite, setForm, setSelectedSize } = props
+    const { id, productById, onHandleChange, seletedSize, availableStock, error, form, onAddToCart, onAddToFavourite, setForm, setSelectedSize, setAvailableStock } = props
     const user = useSelector((state) => state.user.user)
 
     const [isLoggedIn, setIsLoggedIn] = useState(false)
@@ -16,7 +16,13 @@ export default function MainProductDetail(props) {
             classname: 'w-3/4 h-7 border border-black rounded-2xl text-black text-sm mt-20 transition-colors ease-in-out duration-200 hover:bg-gray-200 active:bg-gray-300',
             action: () => {
                 isLoggedIn ? (
-                    onAddToCart()
+                    onAddToCart(),
+                    setSelectedSize(''),
+                    setAvailableStock(null),
+                    setForm({
+                        size : '',
+                        jumlah : 0
+                    })
                 ) : (
                     document.getElementById('modalAuth').showModal()
                 )

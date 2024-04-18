@@ -171,7 +171,7 @@ export default function Navbar(props) {
 
                 </div>
             </div>
-
+            
             <ModalAuth />
 
             <div className={`flex w-full h-screen justify-end items-end fixed transition-all duration-700 z-20 ${cartToggle ? 'translate-x-0' : 'translate-x-full'}`}>
