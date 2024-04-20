@@ -22,17 +22,17 @@ export default function ModalAddInformationLayout() {
     })
 
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                await dispatch(fetchCart())
-            } catch (error) {
-                console.log(error)
-            }
-        }
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //         try {
+    //             await dispatch(fetchCart())
+    //         } catch (error) {
+    //             console.log(error)
+    //         }
+    //     }
 
-        fetchData()
-    }, [dispatch])
+    //     fetchData()
+    // }, [dispatch])
 
     const cartId = Array.isArray(cart) ? cart.map(item => item.id) : [];
 

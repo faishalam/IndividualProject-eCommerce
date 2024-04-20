@@ -1,11 +1,10 @@
-import HeaderToggle from "../fragments/toggle/HeaderCart"
 import CardToggle from "../fragments/toggle/CardCart"
 import FooterToggle from "../fragments/toggle/FooterCart"
 import { useState } from "react"
 import ButtonElement from "../elements/ButtonElement"
 
 export default function ToggleCartLayout(props) {
-    const { setCartToggle, cartToggle, cart, history } = props
+    const { setCartToggle, cartToggle, history, cart } = props
     const [toggleHistory, setToggleHistory] = useState(false)
 
     const price = Array.isArray(cart) && cart?.reduce((total, item) => {
@@ -23,7 +22,6 @@ export default function ToggleCartLayout(props) {
     const handleOnBack = () => {
         setCartToggle && setCartToggle(false)
     }
-
 
     return (
         <>

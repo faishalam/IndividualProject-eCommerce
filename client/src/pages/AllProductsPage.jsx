@@ -24,8 +24,6 @@ export default function AllProductsPage() {
         fetchData();
     }, [dispatch, params]);
 
-    console.log(product, "product")
-
 
     return (
         <>

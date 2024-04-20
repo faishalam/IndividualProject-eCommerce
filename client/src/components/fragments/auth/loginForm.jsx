@@ -1,8 +1,11 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ButtonElement from "../../elements/ButtonElement";
 import ModalInput from "../../elements/ModalInput";
 import { useDispatch } from "react-redux";
 import { userLogin } from "../../../features/user/asyncAction";
+import { fetchCart } from "../../../features/cart/asyncAction";
+import { fetchFavourite } from "../../../features/favourite/asyncAction";
+import { fetchHistory } from "../../../features/history/asyncAction";
 
 export default function LoginForm(props) {
     const { setAuth, googleButton } = props
@@ -31,9 +34,12 @@ export default function LoginForm(props) {
                     email: '',
                     password: '',
                 })
+               
                 setError('')
+                // dispatch(fetchCart())
+                // dispatch(fetchFavourite())
+                // dispatch(fetchHistory())
                 document.getElementById('modalAuth').close()
-
             } catch (error) {
                 setError(error)
             } finally {
@@ -41,7 +47,6 @@ export default function LoginForm(props) {
             }
         }, 2000)
     };
-
     const handleClick = (e) => {
         e.preventDefault()
         setAuth('register')
