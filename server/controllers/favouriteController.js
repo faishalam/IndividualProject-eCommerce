@@ -30,7 +30,10 @@ class FavouriteController {
                 where: { userId: id },
                 include: {
                     model: Product
-                }
+                },
+                order: [
+                    ['createdAt', 'DESC'] 
+                ]
             })
 
             if(!response) return res.status(404).json({ message: "Favourite not found" })

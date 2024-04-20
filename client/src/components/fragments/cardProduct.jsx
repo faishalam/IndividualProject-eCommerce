@@ -40,8 +40,6 @@ export default function CardProduct(props) {
         }
     };
 
-    console.log(type)
-
     return (
         <div className="w-full flex flex-wrap">
             {renderProducts()}

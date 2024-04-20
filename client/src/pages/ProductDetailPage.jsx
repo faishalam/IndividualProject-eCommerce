@@ -12,27 +12,26 @@ export default function ProductDetailPage() {
     const stockById = useSelector((state) => state.stock.stockById)
     const productById = useSelector((state) => state.product.productById)
 
-    const getDataById = async () => {
-        try {
-            await dispatch(getProductById(id));
-            await dispatch(fetchStockById(id))
-            setIsLoading(false)
-        } catch (error) {
-            console.log(error);
-        } finally {
-            setIsLoading(false)
-        }
-    };
-
     useEffect(() => {
+        const getDataById = async () => {
+            try {
+                await dispatch(getProductById(id));
+                await dispatch(fetchStockById(id))
+                setIsLoading(false)
+            } catch (error) {
+                console.log(error);
+            } finally {
+                setIsLoading(false)
+            }
+        };
         getDataById()
     }, [dispatch])
 
 
     return (
         <>
-            <div className="bg-white"> 
-                <ProductDetailLayout id={id} isLoading={isLoading} productById={productById} stockById={stockById}/>
+            <div className="bg-white">
+                <ProductDetailLayout id={id} isLoading={isLoading} productById={productById} stockById={stockById} />
             </div>
         </>
     )

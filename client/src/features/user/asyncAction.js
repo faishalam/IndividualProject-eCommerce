@@ -13,8 +13,8 @@ export const userLogin = (form) => {
 
             if (response.data !== null) {
                 dispatch(setUser(response.data.access_token))
-
             }
+
             dispatch(fetchCart())
             dispatch(fetchFavourite())
             dispatch(fetchHistory())
@@ -63,6 +63,6 @@ export const googleLogin = (response) => {
 
 export const userLogout = () => {
     return async (dispatch) => {
-        dispatch(setUser({}))
+        dispatch(setUser(null))
     }
 }

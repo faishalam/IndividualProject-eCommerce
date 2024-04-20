@@ -3,7 +3,6 @@ import { motion } from "framer-motion"
 import ModalAuth from "../layouts/ModalAuthLayout"
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
-import ToggleCartLayout from "../layouts/ToggleCartLayout"
 import ToggleFavouriteLayout from "../layouts/ToggleFavouriteLayout"
 import Search from "./Search"
 import { useDispatch, useSelector } from "react-redux"
@@ -11,6 +10,7 @@ import { userLogin, userLogout } from "../../features/user/asyncAction"
 import { fetchFavourite } from "../../features/favourite/asyncAction"
 import { fetchCart } from "../../features/cart/asyncAction"
 import { fetchHistory } from "../../features/history/asyncAction"
+import ToggleCartLayout from "../layouts/ToggleCartLayout"
 
 export default function Navbar(props) {
     const dispatch = useDispatch()
@@ -72,7 +72,6 @@ export default function Navbar(props) {
             title: 'LOGOUT',
             action: () => {
                 localStorage.getItem('access_token') && localStorage.removeItem('access_token')
-
                 dispatch(userLogout())
             },
             isVisible: isLoggedIn
@@ -86,20 +85,19 @@ export default function Navbar(props) {
         },
     ]
 
-    
+    // useEffect(() => {
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                await dispatch(fetchFavourite());
-                await dispatch(fetchCart());
-                await dispatch(fetchHistory());
-            } catch (error) {
-                // setError(error)
-            }
-        };
-        fetchData();
-    }, [dispatch]);
+    //     const fetchData = async () => {
+    //         try {
+    //             await dispatch(fetchFavourite());
+    //             await dispatch(fetchCart());
+    //             dispatch(fetchHistory());
+    //         } catch (error) {
+    //             console.log(error)
+    //         }
+    //     };
+    //     fetchData();
+    // }, [dispatch]);
 
     useEffect(() => {
         setIsLoggedIn(token && token?.length ? true : false)
@@ -109,7 +107,10 @@ export default function Navbar(props) {
     //     return total + item.Product.price * item.jumlah
     // }, 0)
 
-    // console.log(cart)
+    console.log(favourite, 'fav')
+    console.log(cart, 'cart')
+
+
 
     return (
         <>
@@ -171,7 +172,7 @@ export default function Navbar(props) {
 
                 </div>
             </div>
-            
+
             <ModalAuth />
 
             <div className={`flex w-full h-screen justify-end items-end fixed transition-all duration-700 z-20 ${cartToggle ? 'translate-x-0' : 'translate-x-full'}`}>
@@ -180,7 +181,7 @@ export default function Navbar(props) {
                         <ToggleCartLayout
                             cartToggle={cartToggle}
                             setCartToggle={setCartToggle}
-                            cart={cart}
+                            cart={cart ? cart : []}
                             history={history}
                         />
                     ) : (
